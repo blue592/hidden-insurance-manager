@@ -1,0 +1,28 @@
+# Personal insurance material is kept outside this source repository.
+private-data/
+personal-data/
+backups/
+imports/
+downloads/
+*.pdf
+*.zip
+보험수첩_*.json
+*원본포함*.json
+*원본제외*.json
+*백업*.json
+*backup*.json
+*_증권*.md
+*_약관*.md
+*보험증권*.md
+*보험약관*.md
+
+# Local credentials and editor/runtime data
+.env
+.env.*
+!.env.example
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+
+# Synthetic fixtures must have non-personal contents and be reviewed before commit.
